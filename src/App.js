@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import AddCount from './AddCount';
+import About from './About';
 
 export default class App extends Component {
   constructor(props) {
@@ -7,9 +9,13 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        done
-      </div>
+      <>
+        <div>
+          done
+        </div>
+        <AddCount />
+        {/* <About /> */}
+      </>
     );
   }
 }
