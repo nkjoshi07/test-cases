@@ -7,14 +7,12 @@ export default class AddCount extends Component {
             count: 0
         }
     }
-    handleChange = ()=>{
-        
-    }
+   
     render() {
         return (
-            <div data-testid={`class-${this.state.count}`}>
+            <div className={`class-${this.state.count}`}>
                 <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-                    {`click ${this.state.count} times`}
+                    {`click ${this.state.count} time`}
                 </button>
             </div>
         );

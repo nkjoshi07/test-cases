@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AddCount from './AddCount';
 import About from './About';
+import News from './News';
 
 export default class App extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ export default class App extends Component {
         </div>
         <AddCount />
         {/* <About /> */}
+        <News />
       </>
     );
   }
